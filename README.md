@@ -59,10 +59,23 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
+/* Custom CSS styles */
+body {
+    background-color: #f2f2f2;
+}
 
-    <!-- Link to Bootstrap JS and jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Add more styles as needed */
+
 </body>
 </html>
